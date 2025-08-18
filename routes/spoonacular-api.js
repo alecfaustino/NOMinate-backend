@@ -15,7 +15,7 @@ router.get("/search", async (req, res) => {
         apikey,
       },
       params: {
-        number: 1,
+        number: 5,
         addRecipeInformation: true,
         addRecipeInstructions: true,
         addRecipeNutrition: true,
